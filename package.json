@@ -1,0 +1,21 @@
+{
+  "name": "react-jsonschema-form-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/FormGenerator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rezam7596/react-jsonschema-form-generator.git"
+  },
+  "keywords": [
+    "react",
+    "json schema",
+    "form",
+    "form generator",
+    "ui"
+  ],
+  "license": "MIT"
+}

@@ -1,0 +1,21 @@
+.preview-widget {
+  display: flex;
+  font-size: 14px;
+
+  h3,
+  p {
+    margin: 0;
+    padding: 0;
+  }
+
+  h3 {
+    font-size: inherit;
+    font-weight: 500;
+    padding-left: 5px;
+  }
+
+  p {
+    font-weight: 300;
+    color: #757575;
+  }
+}

@@ -1,0 +1,52 @@
+.form-generator-modal {
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  max-height: 90vh;
+  overflow: auto;
+}
+
+.rjf-buttons {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+
+  button {
+    width: 100px;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #4d7cfe;
+    border: none;
+    border-radius: 3px;
+
+    &:not(:last-child) {
+      margin-left: 10px;
+    }
+  }
+}
+
+.form-generator {
+  &.theme-1 {
+    padding: 15px;
+    background-color: #eee;
+
+    > form {
+      background-color: #eee;
+    }
+
+    > div {
+      background-color: #eee;
+    }
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .form-generator-modal {
+    min-width: 400px;
+  }
+}
