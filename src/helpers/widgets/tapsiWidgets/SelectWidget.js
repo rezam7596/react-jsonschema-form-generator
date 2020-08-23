@@ -1,8 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import AutoComplete from 'tapsi-components/AutoComplete';
 import { deepGetBfs, notifyError } from '../../../utils';
-
-import AutoComplete from '../../../../AutoComplete/AutoComplete';
 
 const setEnumInCustomSchema = (customSchema, url, data) => {
   if (customSchema.url && customSchema.url === url) {

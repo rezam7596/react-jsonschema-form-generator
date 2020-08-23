@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import DateTime from '../../../../DateTime/DateTime';
+import DateTime from 'tapsi-components/DateTime';
 
 function DateTimeWidget(props) {
   const {

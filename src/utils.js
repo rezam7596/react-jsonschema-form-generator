@@ -76,3 +76,15 @@ export function notifyError(message, defaultMessage = defaultErrorMessage) {
   };
   toastr.error(message || defaultMessage, 'خطا');
 }
+
+export const convertEnglishNumberToPersianNumber = englishText => {
+  const persianNumbers = ['۰', '۱', '۲', '۳', '۴', '۵', '۶', '۷', '۸', '۹'];
+  if (typeof englishText !== 'string') {
+    return englishText;
+  }
+  let resultStr = englishText;
+  for (let i = 0; i < 10; i += 1) {
+    resultStr = resultStr.replace(RegExp(i, 'g'), persianNumbers[i]);
+  }
+  return resultStr;
+};

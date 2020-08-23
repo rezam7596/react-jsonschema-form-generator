@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Checkbox from '../../../../CheckBox/CheckBox';
+import Checkbox from 'tapsi-components/CheckBox';
 
 function CheckboxWidget({ value, label, id, onChange, disabled }) {
   return (

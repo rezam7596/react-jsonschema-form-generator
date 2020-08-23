@@ -17,5 +17,20 @@
     "form generator",
     "ui"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "4.0.0-alpha.56",
+    "@material-ui/styles": "^4.10.0",
+    "classnames": "^2.2.6",
+    "deepmerge": "4.2.2",
+    "isomorphic-style-loader": "^4.0.0",
+    "moment-jalaali": "^0.9.2",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-jsonschema-form": "^1.8.1",
+    "tapsi-components": "^1.0.3"
+  }
 }

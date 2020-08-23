@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import moment from 'moment-jalaali';
-import { convertEnglishNumberToPersianNumber } from '../../../../../utils';
+import { convertEnglishNumberToPersianNumber } from '../../../utils';
 import PreviewWidget from './PreviewWidget';
 
 moment.loadPersian({ usePersianDigits: false, dialect: 'persian-modern' });
