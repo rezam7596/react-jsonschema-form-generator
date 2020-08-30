@@ -1,6 +1,6 @@
 {
   "name": "react-jsonschema-form-generator",
-  "version": "1.0.2",
+  "version": "1.0.7",
   "description": "",
   "main": "./dist/FormGenerator.js",
   "scripts": {
