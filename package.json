@@ -2,9 +2,10 @@
   "name": "react-jsonschema-form-generator",
   "version": "1.0.1",
   "description": "",
-  "main": "./src/FormGenerator.js",
+  "main": "./dist/FormGenerator.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\""
+    "test": "echo \"Error: no test specified\"",
+    "build": "babel src -d dist --copy-files --no-copy-ignored"
   },
   "repository": {
     "type": "git",
@@ -31,6 +32,13 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-jsonschema-form": "^1.8.1",
-    "tapsi-components": "^1.0.3"
+    "tapsi-components": "^1.0.6"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.4",
+    "@babel/plugin-proposal-class-properties": "^7.10.4",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/preset-react": "^7.10.4"
   }
 }
