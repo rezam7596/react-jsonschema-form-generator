@@ -9,7 +9,7 @@ var _react = _interopRequireDefault(require("react"));
 
 var _propTypes = _interopRequireDefault(require("prop-types"));
 
-var _DateTime = _interopRequireDefault(require("tapsi-components/DateTime"));
+var _tapsiComponents = require("tapsi-components");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
@@ -24,7 +24,7 @@ function DateTimeWidget(props) {
       rawErrors = props.rawErrors,
       placeholder = props.placeholder,
       timePickerEnabled = props.timePickerEnabled;
-  return /*#__PURE__*/_react["default"].createElement(_DateTime["default"], {
+  return /*#__PURE__*/_react["default"].createElement(_tapsiComponents.DateTime, {
     title: title,
     onChange: onChange,
     value: value,

@@ -11,9 +11,9 @@ var _withStyles = _interopRequireDefault(require("isomorphic-style-loader/lib/wi
 
 var _Modal = _interopRequireDefault(require("@material-ui/core/Modal"));
 
-var _Button = _interopRequireDefault(require("tapsi-components/Button"));
+var _tapsiComponents = require("tapsi-components");
 
-var _constants = require("tapsi-components/Button/constants");
+var _constants = require("tapsi-components/dist/Button/constants");
 
 var _propTypes = require("./propTypes");
 
@@ -99,11 +99,11 @@ function FormGenerator(_ref) {
     preview: true
   }), /*#__PURE__*/_react["default"].createElement("div", {
     className: "rjf-buttons"
-  }, /*#__PURE__*/_react["default"].createElement(_Button["default"], {
+  }, /*#__PURE__*/_react["default"].createElement(_tapsiComponents.Button, {
     onClick: function onClick() {
       return setIsPreviewModalOpen(false);
     }
-  }, "\u0627\u0646\u0635\u0631\u0627\u0641"), /*#__PURE__*/_react["default"].createElement(_Button["default"], {
+  }, "\u0627\u0646\u0635\u0631\u0627\u0641"), /*#__PURE__*/_react["default"].createElement(_tapsiComponents.Button, {
     type: "submit",
     theme: _constants.buttonThemes.THEME_3
   }, "\u062A\u0627\u06CC\u06CC\u062F")))));
@@ -135,7 +135,7 @@ function FormGenerator(_ref) {
     style: {
       display: 'none'
     }
-  } : {}), /*#__PURE__*/_react["default"].createElement(_Button["default"], {
+  } : {}), /*#__PURE__*/_react["default"].createElement(_tapsiComponents.Button, {
     type: "submit",
     theme: _constants.buttonThemes.THEME_3
   }, submitLabel))), shouldShowPreview ? previewModal : null);

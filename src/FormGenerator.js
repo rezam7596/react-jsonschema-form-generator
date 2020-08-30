@@ -1,8 +1,8 @@
 import React from 'react';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import Modal from '@material-ui/core/Modal';
-import Button from 'tapsi-components/Button';
-import { buttonThemes } from 'tapsi-components/Button/constants';
+import { Button } from 'tapsi-components';
+import { buttonThemes } from 'tapsi-components/dist/Button/constants';
 import { formGeneratorPropTypes, formGeneratorDefaultPropTypes } from './propTypes';
 import formGridSystem from './helpers/gridSystemClasses.scss';
 import style from './FormGenerator.scss';

@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import AutoComplete from 'tapsi-components/AutoComplete';
+import { AutoComplete } from 'tapsi-components';
 import { deepGetBfs, notifyError } from '../../../utils';
 
 const setEnumInCustomSchema = (customSchema, url, data) => {

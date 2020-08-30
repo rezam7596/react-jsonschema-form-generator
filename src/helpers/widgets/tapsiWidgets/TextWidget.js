@@ -1,7 +1,7 @@
 /* eslint-disable react/jsx-no-duplicate-props */
 import React from 'react';
 import PropTypes from 'prop-types';
-import TextField from 'tapsi-components/TextField';
+import { TextField } from 'tapsi-components';
 
 function TextWidget({
   id,

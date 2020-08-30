@@ -9,7 +9,7 @@ var _react = _interopRequireDefault(require("react"));
 
 var _propTypes = _interopRequireDefault(require("prop-types"));
 
-var _AutoComplete = _interopRequireDefault(require("tapsi-components/AutoComplete"));
+var _tapsiComponents = require("tapsi-components");
 
 var _utils = require("../../../utils");
 
@@ -191,7 +191,7 @@ function SelectWidget(_ref2) {
     }))();
   }, []);
 
-  return /*#__PURE__*/_react["default"].createElement(_AutoComplete["default"], {
+  return /*#__PURE__*/_react["default"].createElement(_tapsiComponents.AutoComplete, {
     value: value,
     onChange: function onChange(event, newValue) {
       return _onChange(newValue);

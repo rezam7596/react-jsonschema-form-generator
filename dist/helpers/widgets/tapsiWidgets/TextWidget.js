@@ -9,7 +9,7 @@ var _react = _interopRequireDefault(require("react"));
 
 var _propTypes = _interopRequireDefault(require("prop-types"));
 
-var _TextField = _interopRequireDefault(require("tapsi-components/TextField"));
+var _tapsiComponents = require("tapsi-components");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
@@ -30,7 +30,7 @@ function TextWidget(_ref) {
       multiline = _ref.multiline,
       select = _ref.select,
       children = _ref.children;
-  return /*#__PURE__*/_react["default"].createElement(_TextField["default"], {
+  return /*#__PURE__*/_react["default"].createElement(_tapsiComponents.TextField, {
     inputProps: {
       style: {
         height: 'auto'

@@ -13,9 +13,9 @@ var _CallToAction = _interopRequireDefault(require("@material-ui/icons/CallToAct
 
 var _utils = require("../../utils");
 
-var _Button = _interopRequireDefault(require("tapsi-components/Button"));
+var _tapsiComponents = require("tapsi-components");
 
-var _constants = require("tapsi-components/Button/constants");
+var _constants = require("tapsi-components/dist/Button/constants");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
@@ -75,7 +75,7 @@ function ActionField(_ref) {
     };
   }();
 
-  return /*#__PURE__*/_react["default"].createElement(_Button["default"], {
+  return /*#__PURE__*/_react["default"].createElement(_tapsiComponents.Button, {
     startIcon: /*#__PURE__*/_react["default"].createElement(_CallToAction["default"], null),
     theme: _constants.buttonThemes.THEME_3,
     onClick: execAction
