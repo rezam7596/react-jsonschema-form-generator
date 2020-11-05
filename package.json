@@ -1,9 +1,11 @@
 {
   "name": "react-jsonschema-form-generator",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "",
   "main": "./dist/index.js",
-  "files": [ "dist" ],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "webpack",
     "test": "echo \"Error: no test specified\"",
