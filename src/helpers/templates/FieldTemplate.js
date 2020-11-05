@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import classnames from 'classnames';
 import { ExpansionPanel, ExpansionPanelDetails, ExpansionPanelSummary, Card, CardContent } from '@material-ui/core';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
@@ -80,4 +79,4 @@ FieldTemplate.propTypes = {
   }).isRequired,
 };
 
-export default withStyles(style)(FieldTemplate);
+export default FieldTemplate;

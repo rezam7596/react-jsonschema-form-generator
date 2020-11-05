@@ -2,8 +2,7 @@ import PropTypes from 'prop-types';
 import React from 'react';
 import CallToActionIcon from '@material-ui/icons/CallToAction';
 import { getUrl, getCalculatedUrlBfs, notifyError } from '../../utils';
-import { Button } from 'tapsi-components';
-import { buttonThemes } from 'tapsi-components/dist/Button/constants';
+import { Button, buttonThemes } from 'tapsi-components';
 
 function ActionField({ schema, formContext: { formData, fetchApi, fetchApiConfig } }) {
   const execAction = async () => {

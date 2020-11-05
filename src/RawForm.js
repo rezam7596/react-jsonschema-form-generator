@@ -1,5 +1,4 @@
 import React from 'react';
-import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import Form from 'react-jsonschema-form';
 import deepMerge from 'deepmerge';
 import formGridSystem from './helpers/gridSystemClasses.scss';
@@ -61,4 +60,4 @@ RawForm.propTypes = rawFormPropTypes;
 
 RawForm.defaultProps = rawFormDefaultPropTypes;
 
-export default withStyles(formGridSystem)(RawForm);
+export default RawForm;

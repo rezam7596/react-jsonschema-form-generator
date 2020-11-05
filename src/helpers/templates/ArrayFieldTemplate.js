@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import style from './ArrayFieldTemplate.scss';
 
 function ArrayFieldTemplate({ canAdd, onAddClick, disabled, readonly, items }) {
@@ -52,4 +51,4 @@ ArrayFieldTemplate.propTypes = {
   ).isRequired,
 };
 
-export default withStyles(style)(ArrayFieldTemplate);
+export default ArrayFieldTemplate;

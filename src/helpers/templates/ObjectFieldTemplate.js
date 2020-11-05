@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import style from './ObjectFieldTemplate.scss';
 
 function ObjectFieldTemplate({ properties }) {
@@ -15,4 +14,4 @@ ObjectFieldTemplate.propTypes = {
   ).isRequired,
 };
 
-export default withStyles(style)(ObjectFieldTemplate);
+export default ObjectFieldTemplate;

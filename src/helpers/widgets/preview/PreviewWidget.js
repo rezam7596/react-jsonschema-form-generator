@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import style from './PreviewWidget.scss';
 
 function PreviewWidget({ id, title, value }) {
@@ -18,4 +17,4 @@ PreviewWidget.propTypes = {
   value: PropTypes.string.isRequired,
 };
 
-export default withStyles(style)(PreviewWidget);
+export default PreviewWidget;
